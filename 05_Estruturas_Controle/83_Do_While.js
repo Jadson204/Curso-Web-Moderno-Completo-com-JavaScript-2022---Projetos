@@ -3,8 +3,6 @@ function getInteiroAleatorio(min, max) {
   return Math.floor(valor);
 }
 
-let opcao = -1;
-
 do {
   opcao = getInteiroAleatorio(-1, 10);
   console.log(`Opção escolhida foi ${opcao}`);
